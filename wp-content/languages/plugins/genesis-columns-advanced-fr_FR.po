@@ -1,0 +1,188 @@
+# Translation of Plugins - Genesis Columns Advanced - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Genesis Columns Advanced - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-17 15:32:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Genesis Columns Advanced - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Nick Diego"
+msgstr "Nick Diego"
+
+#. Description of the plugin/theme
+msgid "Adds shortcodes to easily create up to 42 different columned layouts."
+msgstr "Ajoute des codes courts pour créer facilement jusqu’à 42 mises en page en colonnes différentes."
+
+#. Plugin Name of the plugin/theme
+msgid "Genesis Columns Advanced"
+msgstr "Genesis Columns Advanced"
+
+#: tinymce/popup.php:167
+msgid "Insert Selected Layout"
+msgstr "Insérer la mise en page sélectionnée"
+
+#: tinymce/popup.php:164
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: tinymce/popup.php:161
+msgid "Cancel"
+msgstr "Annuler"
+
+#: tinymce/popup.php:147
+msgid "Column Six"
+msgstr "Colonne six"
+
+#: tinymce/popup.php:146
+msgid "Column Five"
+msgstr "Colonne cinq"
+
+#: tinymce/popup.php:145
+msgid "Column Four"
+msgstr "Colonne quatre"
+
+#: tinymce/popup.php:144
+msgid "Column Three"
+msgstr "Colonne trois"
+
+#: tinymce/popup.php:143
+msgid "Column Two"
+msgstr "Colonne deux"
+
+#: tinymce/popup.php:142
+msgid "Column One"
+msgstr "Colonne une"
+
+#: tinymce/popup.php:137
+msgid "Optionally, add custom CSS classes to each column. Multiple classes must be separated by a space."
+msgstr "En option, ajoutez des classes CSS personnalisées à chaque colonne. Les classes multiples doivent être séparées par un espace."
+
+#: tinymce/popup.php:116
+msgid "Filter by the number of columns."
+msgstr "Filtrer par nombre de colonnes."
+
+#: tinymce/popup.php:108
+msgid "All Layouts"
+msgstr "Toutes les mises en page"
+
+#: tinymce/popup.php:101
+msgid "Close"
+msgstr "Fermer"
+
+#: tinymce/popup.php:100
+msgid "Advanced Column Layouts"
+msgstr "Mises en page avancées des colonnes"
+
+#: tinymce/popup.php:90 tinymce/popup.php:113
+msgid "Six Columns"
+msgstr "Six colonnes"
+
+#: tinymce/popup.php:78 tinymce/popup.php:112
+msgid "Five Columns"
+msgstr "Cinq colonnes"
+
+#: tinymce/popup.php:56 tinymce/popup.php:111
+msgid "Four Columns"
+msgstr "Quatre colonnes"
+
+#: tinymce/popup.php:29 tinymce/popup.php:110
+msgid "Three Columns"
+msgstr "Trois colonnes"
+
+#: tinymce/popup.php:9 tinymce/popup.php:109
+msgid "Two Columns"
+msgstr "Deux colonnes"
+
+#: tinymce/plugin-translations.php:39
+msgid "Place your columns in this container."
+msgstr "Placez vos colonnes dans ce conteneur."
+
+#: tinymce/plugin-translations.php:32
+msgid "Columns Container"
+msgstr "Conteneur de colonnes"
+
+#: tinymce/plugin-translations.php:31
+msgid "Vertical Spacer"
+msgstr "Espacement vertical"
+
+#: tinymce/plugin-translations.php:30
+msgid "Clearfix"
+msgstr "Clearfix"
+
+#: tinymce/plugin-translations.php:29
+msgid "Utilities"
+msgstr "Outils"
+
+#: tinymce/plugin-translations.php:28
+msgid "Advanced Layouts"
+msgstr "Mises en page avancées"
+
+#: tinymce/plugin-translations.php:27
+msgid "6 Columns"
+msgstr "6 colonnes"
+
+#: tinymce/plugin-translations.php:26
+msgid "5 Columns"
+msgstr "5 colonnes"
+
+#: tinymce/plugin-translations.php:25
+msgid "4 Columns"
+msgstr "4 colonnes"
+
+#: tinymce/plugin-translations.php:24
+msgid "3 Columns"
+msgstr "3 colonnes"
+
+#: tinymce/plugin-translations.php:23
+msgid "2 Columns"
+msgstr "2 colonnes"
+
+#: tinymce/plugin-translations.php:22
+msgid "Insert Columns"
+msgstr "Insérer des colonnes"
+
+#: genesis-columns-advanced.php:346
+msgid "Documentation"
+msgstr "Documentation"
+
+#: genesis-columns-advanced.php:161
+msgid "Hide Titles"
+msgstr "Masquer les titres"
+
+#: genesis-columns-advanced.php:160 tinymce/popup.php:118
+msgid "Show Titles"
+msgstr "Afficher les titres"
+
+#: genesis-columns-advanced.php:159
+msgid "You forgot to select a column layout!"
+msgstr "Vous avez oublié de sélectionner une mise en page de colonne !"
+
+#: genesis-columns-advanced.php:158 tinymce/plugin-translations.php:38
+msgid "Place your content for the sixth column here."
+msgstr "Placez le contenu de la sixième colonne ici."
+
+#: genesis-columns-advanced.php:157 tinymce/plugin-translations.php:37
+msgid "Place your content for the fifth column here."
+msgstr "Placez le contenu de la cinquième colonne ici."
+
+#: genesis-columns-advanced.php:156 tinymce/plugin-translations.php:36
+msgid "Place your content for the fourth column here."
+msgstr "Placez le contenu de la quatrième colonne ici."
+
+#: genesis-columns-advanced.php:155 tinymce/plugin-translations.php:35
+msgid "Place your content for the third column here."
+msgstr "Placez le contenu de la troisième colonne ici."
+
+#: genesis-columns-advanced.php:154 tinymce/plugin-translations.php:34
+msgid "Place your content for the second column here."
+msgstr "Placez le contenu de la deuxième colonne ici."
+
+#: genesis-columns-advanced.php:153 tinymce/plugin-translations.php:33
+msgid "Place your content for the first column here."
+msgstr "Placez le contenu de la première colonne ici."
