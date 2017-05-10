@@ -1,4 +1,4 @@
-/*! elementor - v1.4.5 - 30-04-2017 */
+/*! elementor - v1.4.6 - 09-05-2017 */
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var ElementsHandler;
 
@@ -76,7 +76,7 @@ ElementsHandler = function( $ ) {
 	};
 
 	this.runReadyTrigger = function( $scope ) {
-		var elementType = $scope.data( 'element_type' );
+		var elementType = $scope.attr( 'data-element_type' );
 
 		if ( ! elementType ) {
 			return;
@@ -279,10 +279,18 @@ HandlerModule = ViewModule.extend( {
 		var self = this;
 
 		if ( self.onElementChange ) {
-			var cid = self.getModelCID();
+			var uniqueGroup = self.getModelCID() + self.$element.attr( 'data-element_type' ),
+				elementName = self.getElementName(),
+				eventName = 'change';
 
-			elementorFrontend.addListenerOnce( cid, 'change:' + self.getElementName(), function( controlView, elementView ) {
-				if ( elementView.model.cid !== cid ) {
+			if ( 'global' !== elementName ) {
+				eventName += ':' + elementName;
+			}
+
+			elementorFrontend.addListenerOnce( uniqueGroup, eventName, function( controlView, elementView ) {
+				var currentUniqueGroup = elementView.model.cid + elementView.$el.attr( 'data-element_type' );
+
+				if ( currentUniqueGroup !== uniqueGroup ) {
 					return;
 				}
 
